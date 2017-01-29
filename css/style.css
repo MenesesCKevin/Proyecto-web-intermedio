@@ -19,3 +19,9 @@ flex: 1 0 auto;
 .espaciorow{
   margin-bottom: 3px;
 }
+.superior{
+  margin-top: 3%;
+}
+.justificado{
+  text-align: justify;
+}
