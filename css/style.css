@@ -70,3 +70,7 @@ flex: 1 0 auto;
     100%{background-image: url("../imagenes/vol1.jpg");background-size: 100%; left: 0px; top: 0px;}
   }
 }
+#confirmacion{
+  background-color: gray;
+  backface-visibility: hidden;
+}

@@ -27,17 +27,22 @@
             <ul class="right hide-on-med-and-down">
               <li ><a href="scania.html" class="nav">Scania</a></li>
               <li ><a href="man.html" class="nav">Volvo</a></li>
-              <li class="active"><a href="mercedes.html" class="nav">Mercedes-Benz</a></li>
+              <li class="active"><a href="mercedes.html" class="nav">Compras</a></li>
             </ul>
             <ul class="side-nav light-blue darken-3" id="mobile-demo">
               <li><a href="index.html" class="logo active">Os-Trucks</a></li>
               <li><a href="scania.html" class="nav">Scania</a></li>
-              <li><a href="man.html" class="nav">MAN</a></li>
-              <li><a href="mercedes.html" class="nav">Mercedes-Benz</a></li>
+              <li><a href="man.html" class="nav">Volvo</a></li>
+              <li><a href="mercedes.html" class="nav">Compras</a></li>
             </ul>
           </div>
       </nav>
       <div class="container">
+        <div class="row">
+          <div class="center">
+            <h3 class="marca">Compre con nosotros</h3>
+          </div>
+        </div>
         <div class="row">
           <div class=" col offset-m4 m4 s12 marco">
             <div class="caja">
@@ -46,6 +51,61 @@
 
           </div>
         </div>
+
+        <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Nombres" id="first_name" type="text" class="validate">
+              <label for="first_name">Nombres</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Apellidos</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+          <div class="input-field col s12 m6">
+           <select class="icons">
+             <option value="" disabled selected>Marca</option>
+             <option value="1" data-icon="imagenes/lo.png" class="circle">Scania</option>
+             <option value="2" data-icon="imagenes/volvo.png" class="circle">Volvo</option>
+           </select>
+           </div>
+           <div class="input-field col s12 m6">
+            <select class="icons">
+              <option value="" disabled selected>Modelo</option>
+              <option value="" data-icon="imagenes/sc1.jpg" class="circle">V8</option>
+              <option value="" data-icon="imagenes/sc2.jpg" class="circle">Serie R</option>
+              <option value="" data-icon="imagenes/sc3.jpg" class="circle">Serie P</option>
+              <option value="" data-icon="imagenes/sc4.jpg" class="circle">Serie G</option>
+              <option value="" data-icon="imagenes/vol1.jpg" class="circle">FE</option>
+              <option value="" data-icon="imagenes/vol2.jpg" class="circle">FM</option>
+              <option value="" data-icon="imagenes/vol3.jpg" class="circle">FH</option>
+              <option value="" data-icon="imagenes/vol4.jpg" class="circle">FMX G</option>
+            </select>
+            </div>
+         </div>
+        </form>
+        <button class="btn waves-effect waves-light" type="submit" name="action" id="enviar">Enviar
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+
+      <div class="row">
+        <div class="col offset-m2 m8 s12" id="confirmacion">
+          <p id="mensaje"></p>
+          <p id="nombre"></p>
+          <p id="correo"></p>
+        </div>
+
+      </div>
       </div>
 
 
